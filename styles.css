@@ -1,7 +1,7 @@
 /* Style the body and center the form */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    background-color: #878585;
     text-align: center;
     padding: 20px;
 }
@@ -10,10 +10,10 @@ body {
 form {
     background-color: #fff;
     border: 1px solid #ccc;
-    padding: 20px;
-    max-width: 600px;
+    padding: 12px;
+    max-width: 650px;
     margin: 0 auto;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -27,16 +27,16 @@ label {
 textarea,
 select,
 input[type="number"] {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
-    border-radius: 3px;
+    border-radius: 10px;
 }
 
 /* Style the submit button */
 input[type="submit"] {
-    background-color: #007bff;
+    background-color: #449eff;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -46,5 +46,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #03ff29;
+    border-radius: 10px;
+    border: width 10px;
 }
